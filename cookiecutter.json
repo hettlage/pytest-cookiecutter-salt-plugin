@@ -1,0 +1,16 @@
+{
+    "full_name": "SALT/SAAO",
+    "email": "salthelp@salt.ac.za",
+    "github_username": "saltastro",
+    "plugin_name": "foobar",
+    "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
+    "short_description": "A simple plugin to use with pytest",
+    "version": "0.1.0",
+    "pytest_version": "3.5.0",
+    "docs_tool": [
+        "sphinx"
+    ],
+    "license": [
+        "MIT"
+    ]
+}
